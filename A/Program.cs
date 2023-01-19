@@ -1,6 +1,7 @@
 ﻿// пример ввода цифр через пробел
 
 Console.Write("введите 3 целых числа через пробел: ");
+
 string s=Console.ReadLine();
 string[] ss=s.Split(' ');
 int a=int.Parse(ss[0]);
